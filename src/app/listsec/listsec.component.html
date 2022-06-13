@@ -1,0 +1,29 @@
+<h2 class="mt-4">Items in your cart</h2>
+<br>
+<hr>
+<br>
+<ul>
+    <li class="d-flex my-3 px-2 py-2" *ngFor="let p of prods;let i =index">{{p}}
+    <button type="button" class="btn-primary" style="width: 100px ;height: 30px;" (click)="discard(i)">Discard</button></li>
+</ul>
+<!-- <div class="A">
+    <div class="B">
+        <div class="C">
+            <h1>Add your Product</h1>
+        </div>
+        <button type="button" (click)="show()">Add Users</button><br><br>
+        <div class="D">
+            <input type="text" name="newProduct" id="newProduct" >
+            <button type="submit" id="btn">Add To List</button>
+            <app-list></app-list>
+        </div>
+        <div class="E">
+            <h2>Your Product List </h2>
+            <ul>
+                <li class="d-flex my-3 px-2 py-2" *ngFor="let prod of prodList; let i =index">{{prod}}<button>discard</button></li>
+                
+            </ul>
+        </div>
+    </div>
+</div> -->
+<!-- <ng-content></ng-content> -->

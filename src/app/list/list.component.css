@@ -1,0 +1,25 @@
+*{
+    margin: 20px;
+}
+.A{
+    background-color: rgb(101, 177, 177);
+}
+#newProduct{
+    width: 400px;
+    height: 30px; border: 3px solid rgb(12, 12, 12);
+    border-radius: 5px;
+}
+button{
+    width: 200px;
+    height: 35px;
+    border: 3px solid rgb(12, 12, 12);
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: larger;
+}
+li{
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-radius: 5px;
+    align-items: center;
+}
